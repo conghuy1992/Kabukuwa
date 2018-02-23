@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutOver"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/frworm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/worm"
+            android:layout_width="35dp"
+            android:layout_height="31dp"
+            android:layout_gravity="right|center"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="30dp"
+            android:adjustViewBounds="true" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frpill"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/pill"
+            android:layout_width="@dimen/pill_w"
+            android:layout_height="@dimen/pill_h"
+            android:layout_gravity="left|center"
+            android:layout_marginLeft="@dimen/pill_ml"
+            android:layout_marginTop="@dimen/pill_mt"
+            android:adjustViewBounds="true" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frimgbutterfly"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/imgbutterfly"
+            android:layout_width="@dimen/imgbutterfly_w"
+            android:layout_height="@dimen/imgbutterfly_h"
+            android:layout_gravity="left|center"
+            android:adjustViewBounds="true" />
+    </FrameLayout>
+
+</FrameLayout>

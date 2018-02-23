@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frcloud"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imgcloud1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/b_cloud1" />
+
+    <ImageView
+        android:id="@+id/imgcloud2"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="70dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/b_cloud2" />
+
+    <ImageView
+        android:id="@+id/imgcloud3"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="150dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/b_cloud4" />
+
+
+</FrameLayout>

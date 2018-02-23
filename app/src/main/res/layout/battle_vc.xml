@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootbattlevc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <include layout="@layout/battlevc_frtop" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/battle_battle_ring"
+                android:adjustViewBounds="true"
+                android:background="@drawable/battle_battle_ring" />
+
+            <FrameLayout
+                android:id="@+id/battle_dust_bg"
+                android:layout_width="400dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="70dp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/battle_dust3"
+                    android:layout_width="@dimen/battle_dust"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="25dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/battle_dust3" />
+
+                <ImageView
+                    android:id="@+id/battle_dust8"
+                    android:layout_width="@dimen/battle_dust"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="25dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/battle_dust8" />
+            </FrameLayout>
+
+            <include layout="@layout/battlevc_frplayer" />
+
+            <include layout="@layout/battlevc_frcpu" />
+
+            <FrameLayout
+                android:id="@+id/battle_frame_flip"
+                android:layout_width="@dimen/battle_frame_w"
+                android:layout_height="@dimen/battle_frame_h"
+                android:layout_gravity="right"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="30dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/battle_frame_flip"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/msgcpu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:gravity="center"
+                    android:text="かかってきなさい"
+                    android:textColor="#000000"
+                    android:textSize="10dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/battle_frame"
+                android:layout_width="@dimen/battle_frame_w"
+                android:layout_height="@dimen/battle_frame_h"
+                android:layout_gravity="left"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/battle_frame"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/msgplayer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:gravity="center"
+                    android:text="よろしくお願いします。"
+                    android:textColor="#000000"
+                    android:textSize="10dp" />
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/partbonus"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginLeft="80dp"
+                android:adjustViewBounds="true" />
+
+            <FrameLayout
+                android:id="@+id/battle_dust"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/battle_dust6"
+                    android:layout_width="@dimen/battle_dust4"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="70dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/battle_dust6" />
+
+                <ImageView
+                    android:id="@+id/battle_dust7"
+                    android:layout_width="@dimen/battle_dust4"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="70dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/battle_dust7" />
+
+                <ImageView
+                    android:id="@+id/battle_dust4"
+                    android:layout_width="@dimen/battle_dust4"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="30dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/battle_dust4" />
+
+                <ImageView
+                    android:id="@+id/battle_dust5"
+                    android:layout_width="@dimen/battle_dust4"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/battle_dust5" />
+
+                <ImageView
+                    android:id="@+id/battle_dust1"
+                    android:layout_width="@dimen/battle_dust1"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:layout_marginRight="70dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/battle_dust1" />
+
+                <ImageView
+                    android:id="@+id/battle_dust2"
+                    android:layout_width="@dimen/battle_dust1"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:layout_marginLeft="70dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/battle_dust2" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/battle_result_lose" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="25dp"
+                    android:text="Label"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="Label"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/battle_word1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:src="@drawable/battle_word1"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/battle_word2"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:src="@drawable/battle_word2"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <include layout="@layout/battlevc_base" />
+
+        <FrameLayout
+            android:id="@+id/confetti"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <FrameLayout
+            android:id="@+id/battle_effect_win"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/battle_win"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/battle_win"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="100dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/battle_win"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/battle_lose"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/battle_win"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="100dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/battle_lose"
+            android:visibility="gone" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:id="@+id/battle_result_win"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/battle_result_win"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true" />
+
+            <TextView
+                android:id="@+id/txtwin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:textColor="#ffffff" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtgetpart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffff00" />
+
+                <TextView
+                    android:id="@+id/txtgetpart2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:layout_marginBottom="40dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtexp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#61281b" />
+
+                <TextView
+                    android:id="@+id/adexp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#cc573d"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textcoin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#521000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/adcoin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#cc573d"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtget"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#521000"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtuplv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:layout_marginBottom="22dp"
+                android:textColor="#cc573d"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/battle_ready"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="50dp"
+            android:adjustViewBounds="true" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000">
+
+        <com.google.android.gms.ads.doubleclick.PublisherAdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            ads:adSize="BANNER"
+            ads:adUnitId="/56791129/kabukuwa_Android"></com.google.android.gms.ads.doubleclick.PublisherAdView>
+    </LinearLayout>
+</LinearLayout>

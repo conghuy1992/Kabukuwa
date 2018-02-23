@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tj="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="25dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/capsule_dialogue" />
+
+
+    <com.daydelight.kabukuwa.CustomTextView
+        android:id="@+id/txtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="アイテム GET !!"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        tj:textStroke="true"
+        tj:textStrokeColor="#73056d"
+        tj:textStrokeWidth="7" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/breeding_item_window" />
+
+    <LinearLayout
+        android:id="@+id/lnstar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="82dp"
+        android:orientation="horizontal"></LinearLayout>
+
+    <ImageView
+        android:id="@+id/imggetitem"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:adjustViewBounds="true" />
+
+    <ImageView
+        android:id="@+id/imggetitembody"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        android:adjustViewBounds="true" />
+
+    <ImageView
+        android:id="@+id/imggetitemwing"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        android:adjustViewBounds="true" />
+
+    <ImageView
+        android:id="@+id/imggetitemhead"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true" />
+
+    <ImageView
+        android:id="@+id/imggetitemhorn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:adjustViewBounds="true" />
+
+    <ImageView
+        android:id="@+id/imggetitemneck"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:adjustViewBounds="true" />
+
+    <ImageView
+        android:id="@+id/imggetitemface"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:adjustViewBounds="true" />
+
+
+    <com.daydelight.kabukuwa.CustomTextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="text"
+        android:textColor="#ff0000"
+        android:textStyle="bold"
+        tj:textStroke="true"
+        tj:textStrokeColor="#ffffff"
+        tj:textStrokeWidth="5.5" />
+
+    <com.daydelight.kabukuwa.CustomTextView
+        android:id="@+id/txtdes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="65dp"
+        android:gravity="center"
+        android:text="text"
+        android:textColor="#000000"
+        android:textSize="11dp"
+        tj:textStroke="true"
+        tj:textStrokeColor="#ffffff"
+        tj:textStrokeWidth="4" />
+
+    <ImageView
+        android:id="@+id/btnok"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/cd_button_ok" />
+
+</FrameLayout>

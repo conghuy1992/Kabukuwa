@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="25dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/dialogue2_6" />
+
+    <Button
+        android:id="@+id/btncloselayoutitem"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_close" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="持ち物"
+        android:textColor="#694213" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="75dp"
+        android:text="所持アイテムリスト一覧です。"
+        android:textColor="#694213" />
+
+    <ListView
+        android:id="@+id/fooditem"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginTop="95dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:visibility="gone" />
+
+
+    <LinearLayout
+        android:id="@+id/layoutitem"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="105dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/dialogitemfood"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/shopbtn_food" />
+
+            <ImageView
+                android:id="@+id/dialogitemdrink"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:adjustViewBounds="true"
+                android:src="@drawable/shopbtn_drink" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:id="@+id/dialogitemitem"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/shopbtn_item" />
+
+            <ImageView
+                android:id="@+id/dialogitempart"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center"
+                android:adjustViewBounds="true"
+                android:src="@drawable/itm_parts_icon" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/drinkitem"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginTop="105dp"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/itemitem"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginTop="95dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:visibility="gone" />
+    <ListView
+        android:id="@+id/partitem"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginTop="95dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:visibility="gone" />
+
+</FrameLayout>

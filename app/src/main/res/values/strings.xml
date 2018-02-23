@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">カブクワ</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="_des">ユーザー情報の登録／変更をしてください。
+ユーザIDとパスワードを登録することにより、
+機種変更などでデータをバックアップすることができます。
+既にデータを登録済みで機種変更を行った場合は、
+ユーザIDとパスワードを入力して複元することが可能です。</string>
+    <string name="facebook_app_id">1605762996341140</string>
+    <string name="content1">ミネラルウォーター[成虫／幼虫兼用]</string>
+    <string name="content2">スペシャルジュース[成虫／幼虫兼用]</string>
+    <string name="content3">マットごはん[成虫用]</string>
+    <string name="content4">マットごはんスペシャル[成虫用]</string>
+    <string name="content5">昆虫ゼリー[成虫用]</string>
+    <string name="content6">スペシャルゼリー[成虫用]</string>
+    <string name="content7">腐葉土ごはん[成虫用]</string>
+    <string name="content8">菌糸ごはん[成虫用]</string>
+    <string name="content9">樹液[成虫用]</string>
+    <string name="content10">焼酎バナナ[成虫用]</string>
+    <string name="content11">成長促進剤2倍[成虫用]</string>
+    <string name="content12">成長促進剤10倍[成虫用]</string>
+    <string name="content13">鞆の浦の保命酒[ブリーダー用]</string>
+    <string name="content14">お掃除ルンパ[成虫用]</string>
+    <string name="content15">若返りの薬[成虫用]</string>
+    <string name="content16">進化の薬[成虫用]</string>
+    <string name="content17">酸素カプセル[成虫用]</string>
+
+
+</resources>

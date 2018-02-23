@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imgupdown"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="@dimen/ft_mg"
+        android:layout_marginRight="5dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/bgdown" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ft_w"
+        android:layout_gravity="bottom|center"
+        android:orientation="horizontal"
+        android:weightSum="6.2">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="5"
+            android:background="@drawable/b_parameter_face">
+
+            <ImageView
+                android:id="@+id/btnstt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="5dp"
+                android:adjustViewBounds="true"
+                android:padding="3dp"
+                android:src="@drawable/p01" />
+
+            <ImageView
+                android:id="@+id/txtstt"
+                android:layout_width="@dimen/txtstt"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:src="@drawable/p01_comment" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:id="@+id/bgfood"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center">
+
+                        <TextView
+                            android:layout_width="@dimen/progressBar40_w"
+                            android:layout_height="10dp"
+                            android:layout_gravity="center|left"
+                            android:layout_marginLeft="@dimen/progressBar40_ml"
+                            android:layout_marginTop="1dp"
+                            android:background="#000" />
+
+
+
+                        <ProgressBar
+                            android:id="@+id/progressBar3"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="@dimen/progressBar40_w"
+                            android:layout_height="10dp"
+                            android:layout_gravity="center|left"
+                            android:layout_marginLeft="@dimen/progressBar40_ml"
+                            android:layout_marginTop="1dp"
+                            android:indeterminate="false"
+                            android:progressDrawable="@drawable/custom_progress"
+                            android:visibility="gone" />
+
+                        <ProgressBar
+                            android:id="@+id/progressBar32"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="@dimen/progressBar40_w"
+                            android:layout_height="10dp"
+                            android:layout_gravity="center|left"
+                            android:layout_marginLeft="@dimen/progressBar40_ml"
+                            android:layout_marginTop="1dp"
+                            android:indeterminate="false"
+                            android:progressDrawable="@drawable/custom_progress"
+                            android:visibility="gone" />
+
+                        <ProgressBar
+                            android:id="@+id/progressBar33"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="@dimen/progressBar40_w"
+                            android:layout_height="10dp"
+                            android:layout_gravity="center|left"
+                            android:layout_marginLeft="@dimen/progressBar40_ml"
+                            android:layout_marginTop="1dp"
+                            android:indeterminate="false"
+                            android:progressDrawable="@drawable/custom_progress"
+                            android:visibility="gone" />
+
+                        <ProgressBar
+                            android:id="@+id/progressBar34"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="@dimen/progressBar40_w"
+                            android:layout_height="10dp"
+                            android:layout_gravity="center|left"
+                            android:layout_marginLeft="@dimen/progressBar40_ml"
+                            android:layout_marginTop="1dp"
+                            android:indeterminate="false"
+                            android:progressDrawable="@drawable/custom_progress"
+                            android:visibility="gone" />
+
+                        <ProgressBar
+                            android:id="@+id/progressBar35"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="@dimen/progressBar40_w"
+                            android:layout_height="10dp"
+                            android:layout_gravity="center|left"
+                            android:layout_marginLeft="@dimen/progressBar40_ml"
+                            android:layout_marginTop="1dp"
+                            android:indeterminate="false"
+                            android:progressDrawable="@drawable/custom_progress"
+                            android:visibility="gone" />
+
+                        <ProgressBar
+                            android:id="@+id/progressBar36"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="@dimen/progressBar40_w"
+                            android:layout_height="10dp"
+                            android:layout_gravity="center|left"
+                            android:layout_marginLeft="@dimen/progressBar40_ml"
+                            android:layout_marginTop="1dp"
+                            android:indeterminate="false"
+                            android:progressDrawable="@drawable/custom_progress"
+                            android:visibility="gone" />
+
+                        <ProgressBar
+                            android:id="@+id/progressBar37"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="@dimen/progressBar40_w"
+                            android:layout_height="10dp"
+                            android:layout_gravity="center|left"
+                            android:layout_marginLeft="@dimen/progressBar40_ml"
+                            android:layout_marginTop="1dp"
+                            android:indeterminate="false"
+                            android:progressDrawable="@drawable/custom_progress"
+                            android:visibility="gone" />
+
+                        <ProgressBar
+                            android:id="@+id/progressBar38"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="@dimen/progressBar40_w"
+                            android:layout_height="10dp"
+                            android:layout_gravity="center|left"
+                            android:layout_marginLeft="@dimen/progressBar40_ml"
+                            android:layout_marginTop="1dp"
+                            android:indeterminate="false"
+                            android:progressDrawable="@drawable/custom_progress"
+                            android:visibility="gone" />
+
+                        <ProgressBar
+                            android:id="@+id/progressBar6"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="220dp"
+                            android:layout_height="10dp"
+                            android:layout_gravity="center|left"
+                            android:layout_marginLeft="46dp"
+                            android:layout_marginTop="1dp"
+                            android:indeterminate="false"
+                            android:visibility="gone" />
+
+                        <ProgressBar
+                            android:id="@+id/progressBar7"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="220dp"
+                            android:layout_height="10dp"
+                            android:layout_gravity="center|left"
+                            android:layout_marginLeft="46dp"
+                            android:layout_marginTop="1dp"
+                            android:indeterminate="false"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:layout_width="@dimen/b_parameter2"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/b_parameter2" />
+                    </FrameLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <ImageView
+                    android:id="@+id/btnfood"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/b01" />
+
+                <ImageView
+                    android:id="@+id/btndrink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/b02" />
+
+                <ImageView
+                    android:id="@+id/btnitem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/b06" />
+
+                <ImageView
+                    android:id="@+id/btntam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/b03" />
+
+                <ImageView
+                    android:id="@+id/btnquetnha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/b05" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

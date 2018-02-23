@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutUnder"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone">
+
+
+    <ImageView
+        android:id="@+id/clay1"
+        android:layout_width="35dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/clay1_mb"
+        android:layout_marginLeft="@dimen/clay1_ml"
+        android:adjustViewBounds="true" />
+
+    <ImageView
+        android:id="@+id/clay2"
+        android:layout_width="35dp"
+        android:layout_height="43dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="@dimen/clay2_mr"
+        android:layout_marginTop="@dimen/clay2_mt"
+        android:adjustViewBounds="true" />
+
+    <ImageView
+        android:id="@+id/ribbon1"
+        android:layout_width="35dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/ribbon1_mb"
+        android:layout_marginLeft="@dimen/ribbon1_ml"
+        android:adjustViewBounds="true" />
+
+    <ImageView
+        android:id="@+id/ribbon2"
+        android:layout_width="35dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/ribbon2_mb"
+        android:layout_marginLeft="@dimen/ribbon2_ml"
+        android:adjustViewBounds="true" />
+
+    <ImageView
+        android:id="@+id/ribbon3"
+        android:layout_width="35dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="35dp"
+        android:layout_marginRight="45dp"
+        android:adjustViewBounds="true" />
+
+    <ImageView
+        android:id="@+id/ribbon4"
+        android:layout_width="35dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="80dp"
+        android:adjustViewBounds="true" />
+
+</FrameLayout>

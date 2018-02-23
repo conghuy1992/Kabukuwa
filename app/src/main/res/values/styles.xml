@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="PauseDialogAnimation">
+        <item name="@android:windowEnterAnimation">@anim/trans_left_in</item>
+        <item name="@android:windowExitAnimation">@anim/trans_left_out</item>
+
+    </style>
+
+    <style name="PauseDialogAnimation1">
+        <item name="@android:windowEnterAnimation">@anim/fadein2</item>
+        <item name="@android:windowExitAnimation">@anim/fade_out2</item>
+
+    </style>
+
+    <color name="transparent_green_color">#ff0000</color>
+
+    <style name="TranslucentGreen" parent="android:Theme.Translucent">
+        <item name="android:windowBackground">@color/transparent_green_color</item>
+    </style>
+</resources>

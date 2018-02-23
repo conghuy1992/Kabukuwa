@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tj="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frtop"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|top"
+    android:background="#c79d61">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="330dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:src="@drawable/battle_background" />
+
+    <FrameLayout
+        android:id="@+id/cheer1"
+        android:layout_width="@dimen/size_cheer"
+        android:layout_height="@dimen/size_cheer"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="@dimen/cheer1"
+        android:scaleX="1.2"
+        android:scaleY="1.2" />
+
+    <FrameLayout
+        android:id="@+id/cheer2"
+        android:layout_width="@dimen/size_cheer"
+        android:layout_height="@dimen/size_cheer"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="@dimen/cheer2"
+        android:scaleX="1.2"
+        android:scaleY="1.2" />
+
+    <FrameLayout
+        android:id="@+id/cheer4"
+        android:layout_width="@dimen/size_cheer"
+        android:layout_height="@dimen/size_cheer"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="@dimen/cheer4"
+        android:layout_marginLeft="50dp"
+        android:scaleX="1.2"
+        android:scaleY="1.2" />
+
+    <FrameLayout
+        android:id="@+id/cheer5"
+        android:layout_width="@dimen/size_cheer"
+        android:layout_height="@dimen/size_cheer"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="@dimen/cheer4"
+        android:layout_marginRight="50dp"
+        android:scaleX="1.2"
+        android:scaleY="1.2" />
+
+    <FrameLayout
+        android:id="@+id/cheer6"
+        android:layout_width="@dimen/size_cheer"
+        android:layout_height="@dimen/size_cheer"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="@dimen/cheer6"
+        android:layout_marginLeft="100dp"
+        android:scaleX="1.2"
+        android:scaleY="1.2" />
+
+    <FrameLayout
+        android:id="@+id/cheer7"
+        android:layout_width="@dimen/size_cheer"
+        android:layout_height="@dimen/size_cheer"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="@dimen/cheer6"
+        android:layout_marginRight="100dp"
+        android:scaleX="1.2"
+        android:scaleY="1.2" />
+
+    <FrameLayout
+        android:id="@+id/cheer3"
+        android:layout_width="@dimen/size_cheer"
+        android:layout_height="@dimen/size_cheer"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="@dimen/cheer1"
+        android:scaleX="1.4"
+        android:scaleY="1.4" />
+
+    <LinearLayout
+        android:id="@+id/cheering"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/battle_gage2" />
+
+        <ProgressBar
+            android:id="@+id/battle_life_cpu"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="90dp"
+            android:layout_height="29dp"
+            android:layout_gravity="right|center"
+            android:layout_marginRight="67dp"
+            android:layout_marginTop="5dp"
+            android:progressDrawable="@drawable/bg_life_cpu" />
+
+        <ProgressBar
+            android:id="@+id/battle_life_player"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="90dp"
+            android:layout_height="29dp"
+            android:layout_gravity="left|center"
+            android:layout_marginLeft="67dp"
+            android:layout_marginTop="5dp"
+            android:progressDrawable="@drawable/bg_life_player" />
+
+        <ImageView
+            android:id="@+id/battle_life_img"
+            android:layout_width="90dp"
+            android:layout_height="29dp"
+            android:layout_gravity="left|center"
+            android:layout_marginLeft="67dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/battle_life_player" />
+
+        <com.daydelight.kabukuwa.RoundLayout
+            android:layout_width="65dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center|left"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/circle_layout">
+
+            <ImageView
+                android:id="@+id/pl_horn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:adjustViewBounds="true"
+                android:scaleX="3"
+                android:scaleY="3" />
+
+            <ImageView
+                android:id="@+id/pl_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:adjustViewBounds="true"
+                android:scaleX="3"
+                android:scaleY="3" />
+
+            <ImageView
+                android:id="@+id/pl_neck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:adjustViewBounds="true"
+                android:scaleX="3"
+                android:scaleY="3" />
+
+            <ImageView
+                android:id="@+id/pl_face"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:adjustViewBounds="true"
+                android:scaleX="3"
+                android:scaleY="3" />
+
+            <ImageView
+                android:id="@+id/pl_horn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:adjustViewBounds="true"
+                android:scaleX="3"
+                android:scaleY="3" />
+        </com.daydelight.kabukuwa.RoundLayout>
+
+        <com.daydelight.kabukuwa.RoundLayout
+            android:layout_width="65dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center|right"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/circle_layout">
+
+            <ImageView
+                android:id="@+id/cpu_horn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:adjustViewBounds="true"
+                android:scaleX="3"
+                android:scaleY="3" />
+
+            <ImageView
+                android:id="@+id/cpu_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:adjustViewBounds="true"
+                android:scaleX="3"
+                android:scaleY="3" />
+
+            <ImageView
+                android:id="@+id/cpu_neck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:adjustViewBounds="true"
+                android:scaleX="3"
+                android:scaleY="3" />
+
+            <ImageView
+                android:id="@+id/cpu_face"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:adjustViewBounds="true"
+                android:scaleX="3"
+                android:scaleY="3" />
+
+            <ImageView
+                android:id="@+id/cpu_horn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:adjustViewBounds="true"
+                android:scaleX="3"
+                android:scaleY="3" />
+        </com.daydelight.kabukuwa.RoundLayout>
+
+
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:src="@drawable/battle_gage1" />
+
+        <com.daydelight.kabukuwa.CustomTextView
+            android:id="@+id/Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:text="name"
+            android:textColor="#faf600"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            tj:textStroke="true"
+            tj:textStrokeColor="#521000"
+            tj:textStrokeWidth="5" />
+
+        <com.daydelight.kabukuwa.CustomTextView
+            android:id="@+id/NameCPU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:text="nameCPU"
+            android:textColor="#faf600"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            tj:textStroke="true"
+            tj:textStrokeColor="#521000"
+            tj:textStrokeWidth="5" />
+
+        <com.daydelight.kabukuwa.CustomTextView
+            android:id="@+id/hpplayer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="90dp"
+            android:text="999/999"
+            android:textColor="#faf600"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            tj:textStroke="true"
+            tj:textStrokeColor="#521000"
+            tj:textStrokeWidth="5" />
+
+        <com.daydelight.kabukuwa.CustomTextView
+            android:id="@+id/hpcpu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="220dp"
+            android:text="999/999"
+            android:textColor="#faf600"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            tj:textStroke="true"
+            tj:textStrokeColor="#521000"
+            tj:textStrokeWidth="5" />
+
+        <com.daydelight.kabukuwa.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="200dp"
+            android:text="HP"
+            android:textColor="#faf600"
+            android:textStyle="bold"
+            tj:textStroke="true"
+            tj:textStrokeColor="#521000"
+            tj:textStrokeWidth="5" />
+
+        <com.daydelight.kabukuwa.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="70dp"
+            android:text="HP"
+            android:textColor="#faf600"
+            android:textStyle="bold"
+            tj:textStroke="true"
+            tj:textStrokeColor="#521000"
+            tj:textStrokeWidth="5" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/battle_word3"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/battle_word3" />
+
+    <ImageView
+        android:id="@+id/battle_word32"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/battle_word3" />
+
+    <ImageView
+        android:id="@+id/battle_word33"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/battle_word3" />
+
+    <ImageView
+        android:id="@+id/battle_back"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="90dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/battle_back"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/battle_skip"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="90dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/battle_skip"
+        android:visibility="gone" />
+
+
+</FrameLayout>

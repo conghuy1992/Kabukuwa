@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="25dp">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:src="@drawable/shopcategory_background" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/btn_back" />
+
+    <ImageView
+        android:id="@+id/btnfood"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:layout_marginLeft="10dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/shopbtn_food" />
+
+    <ImageView
+        android:id="@+id/btndrink"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:src="@drawable/shopbtn_drink" />
+
+    <ImageView
+        android:id="@+id/btnitem"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:layout_marginRight="10dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/shopbtn_item" />
+
+    <ImageView
+        android:id="@+id/btnegg"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/shopbtn_egg" />
+
+    <ImageView
+        android:id="@+id/btncoin"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/shopbtn_coin" />
+
+    <ImageView
+        android:id="@+id/btnjewel"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="10dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/shopbtn_jewel" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="70dp"
+        android:adjustViewBounds="true"
+        android:padding="20dp"
+        android:src="@drawable/new_shop_word_buy" />
+
+
+</FrameLayout>

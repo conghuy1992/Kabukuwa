@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lnlevelup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="25dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/levelupbg" />
+
+    <TextView
+        android:id="@+id/tienbonus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="27dp"
+        android:layout_marginRight="30dp"
+        android:text="+ 1000"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/kimcuongbonus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="27dp"
+        android:layout_marginLeft="80dp"
+        android:text="jewel"
+        android:textColor="#ffffff" />
+
+
+</FrameLayout>

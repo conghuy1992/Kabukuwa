@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/bglayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/breeding_bg">
+
+        <include layout="@layout/zk_layoutcloud" />
+
+        <include layout="@layout/zk_layoutover" />
+
+        <include layout="@layout/zk_layoutunder" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:adjustViewBounds="true"
+                android:src="@drawable/forest_b1" />
+
+            <RelativeLayout
+                android:id="@+id/lnmsg"
+                android:layout_width="@dimen/lnmsg"
+                android:layout_height="@dimen/lnmsg"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp">
+
+                <TextView
+                    android:id="@+id/txtmsg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:textSize="10dp"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <include layout="@layout/zk_layoutchild" />
+
+            <FrameLayout
+                android:id="@+id/frcolor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+
+            <include layout="@layout/zk_temp" />
+
+            <include
+                layout="@layout/zk_foot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="@dimen/imageView14"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/zukanbtn_mypage" />
+
+            <com.daydelight.kabukuwa.ProgressIndicator
+                android:id="@+id/determinate_progress_indicator1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="top|left"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="18dp" />
+
+            <ImageView
+                android:id="@+id/imgpre"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="31dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/b_arrow_l" />
+
+            <ImageView
+                android:id="@+id/imgnext"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="31dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/b_arrow_r" />
+
+            <include layout="@layout/zk_layoutlevel" />
+        </FrameLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000">
+
+        <com.google.android.gms.ads.doubleclick.PublisherAdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            ads:adSize="BANNER"
+            ads:adUnitId="/56791129/kabukuwa_Android"></com.google.android.gms.ads.doubleclick.PublisherAdView>
+    </LinearLayout>
+</LinearLayout>

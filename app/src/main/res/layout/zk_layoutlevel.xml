@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lnlevel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top|left"
+    android:layout_marginLeft="25dp"
+    android:layout_marginTop="15dp">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/b_parameter1" />
+
+    <TextView
+        android:id="@+id/txtnamezukan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="7dp"
+        android:text="Name"
+        android:textColor="#ffffff"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtlv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#000000"
+        android:textSize="11dp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:layout_marginBottom="5dp">
+
+        <LinearLayout
+            android:id="@+id/layoutLevel"
+            android:layout_width="@dimen/layoutLevel"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="35dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ヘラクレスオオカブト"
+            android:textColor="#ffffff"
+            android:textSize="6dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:textColor="#ffffff"
+            android:textSize="7dp" />
+
+        <TextView
+            android:id="@+id/txttruongthanh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 齢幼虫"
+            android:textColor="#ffffff"
+            android:textSize="6dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/activeitem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:shadowColor="#ffffff"
+        android:shadowDx="1.5"
+        android:shadowDy="1.5"
+        android:shadowRadius="1.5"
+        android:textColor="#d18143"
+        android:textSize="11dp"
+        android:textStyle="bold" />
+
+</FrameLayout>

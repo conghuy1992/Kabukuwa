@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/bgmypage">
+
+        <GridView
+            android:id="@+id/gviewoncreate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numColumns="3"
+            android:visibility="gone">
+
+        </GridView>
+
+        <TextView
+            android:id="@+id/lv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/battle_ring"
+            android:layout_width="@dimen/battle_ring"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:adjustViewBounds="true"
+            android:src="@drawable/battle_ring" />
+
+        <include layout="@layout/randompet_mypage" />
+
+        <ImageView
+            android:id="@+id/word_battle_b"
+            android:layout_width="@dimen/word_battle_b"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="@dimen/word_battle_b_margin_l"
+            android:layout_marginTop="@dimen/word_battle_b_margin_t"
+            android:adjustViewBounds="true"
+            android:src="@drawable/word_battle_b" />
+
+        <ImageView
+            android:id="@+id/word_battle_a"
+            android:layout_width="@dimen/word_battle_b"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="@dimen/word_battle_b_margin_l"
+            android:layout_marginTop="@dimen/word_battle_b_margin_t"
+            android:adjustViewBounds="true"
+            android:src="@drawable/word_battle_a" />
+
+        <ImageView
+            android:id="@+id/word_battle_t1"
+            android:layout_width="@dimen/word_battle_b"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="@dimen/word_battle_b_margin_l"
+            android:layout_marginTop="@dimen/word_battle_b_margin_t"
+            android:adjustViewBounds="true"
+            android:src="@drawable/word_battle_t1" />
+
+        <ImageView
+            android:id="@+id/word_battle_t2"
+            android:layout_width="@dimen/word_battle_b"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="@dimen/word_battle_b_margin_l"
+            android:layout_marginTop="@dimen/word_battle_b_margin_t"
+            android:adjustViewBounds="true"
+            android:src="@drawable/word_battle_t2" />
+
+        <ImageView
+            android:id="@+id/word_battle_l"
+            android:layout_width="@dimen/word_battle_b"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="@dimen/word_battle_b_margin_l"
+            android:layout_marginTop="@dimen/word_battle_b_margin_t"
+            android:adjustViewBounds="true"
+            android:src="@drawable/word_battle_l" />
+
+        <ImageView
+            android:id="@+id/word_battle_e"
+            android:layout_width="@dimen/word_battle_b"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="@dimen/word_battle_b_margin_l"
+            android:layout_marginTop="@dimen/word_battle_b_margin_t"
+            android:adjustViewBounds="true"
+            android:src="@drawable/word_battle_e" />
+
+        <ImageView
+            android:id="@+id/word_battle_ex_mark"
+            android:layout_width="@dimen/word_battle_b"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="@dimen/word_battle_b_margin_l"
+            android:layout_marginTop="@dimen/word_battle_b_margin_t"
+            android:adjustViewBounds="true"
+            android:src="@drawable/word_battle_ex_mark" />
+
+        <ImageView
+            android:layout_width="@dimen/asura_forest_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:adjustViewBounds="true"
+            android:src="@drawable/background_asura" />
+
+        <ImageView
+            android:id="@+id/asura_forest"
+            android:layout_width="@dimen/asura_forest_width"
+            android:layout_height="@dimen/asura_forest_height"
+            android:layout_gravity="top|right"
+            android:adjustViewBounds="true" />
+
+        <ImageView
+            android:id="@+id/word_asura1"
+            android:layout_width="@dimen/word_asura1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:layout_marginRight="@dimen/word_asura1_margin"
+            android:layout_marginTop="@dimen/word_asura1_margin"
+            android:adjustViewBounds="true"
+            android:src="@drawable/word_asura1" />
+
+        <ImageView
+            android:id="@+id/word_asura2"
+            android:layout_width="@dimen/word_asura1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:layout_marginRight="@dimen/word_asura1_margin"
+            android:layout_marginTop="@dimen/word_asura1_margin"
+            android:adjustViewBounds="true"
+            android:src="@drawable/word_asura2" />
+
+        <ImageView
+            android:id="@+id/word_asura3"
+            android:layout_width="@dimen/word_asura1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:layout_marginRight="@dimen/word_asura1_margin"
+            android:layout_marginTop="@dimen/word_asura1_margin"
+            android:adjustViewBounds="true"
+            android:src="@drawable/word_asura3" />
+
+        <ImageView
+            android:id="@+id/word_asura4"
+            android:layout_width="@dimen/word_asura1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:layout_marginRight="@dimen/word_asura1_margin"
+            android:layout_marginTop="@dimen/word_asura1_margin"
+            android:adjustViewBounds="true"
+            android:src="@drawable/word_asura4" />
+
+        <ImageView
+            android:layout_width="@dimen/home_base_new"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:src="@drawable/home_base_new" />
+
+
+        <ImageView
+            android:layout_width="@dimen/home_chair"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="35dp"
+            android:layout_marginLeft="3dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/home_chair" />
+
+        <include layout="@layout/pill_layout" />
+
+        <FrameLayout
+            android:id="@+id/frmypage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/home_parasol1_new"
+            android:layout_width="@dimen/home_parasol1_new_w"
+            android:layout_height="@dimen/home_parasol1_new_h"
+            android:layout_gravity="center"
+            android:layout_marginBottom="70dp"
+            android:layout_marginLeft="5dp"
+            android:adjustViewBounds="true" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:adjustViewBounds="true"
+            android:src="@drawable/forest_b1" />
+
+        <ImageView
+            android:id="@+id/forest_a1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/forest_a1"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true" />
+
+        <include layout="@layout/buttefly_layout" />
+
+        <include layout="@layout/mypage_select" />
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000">
+
+        <com.google.android.gms.ads.doubleclick.PublisherAdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            ads:adSize="BANNER"
+            ads:adUnitId="/56791129/kabukuwa_Android"></com.google.android.gms.ads.doubleclick.PublisherAdView>
+    </LinearLayout>
+
+
+</LinearLayout>

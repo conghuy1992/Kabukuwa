@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <FrameLayout
+            android:id="@+id/frcoin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/c_gacha_background">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/c_curtain">
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="110dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/c_gacha_body_inside" />
+
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="90dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/c_gacha_body" />
+
+                <ImageView
+                    android:id="@+id/handle1"
+                    android:layout_width="35dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="65dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/c_handle" />
+
+                <ImageView
+                    android:id="@+id/gachaHead1"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="40dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/c_gacha_head1" />
+
+                <ImageView
+                    android:id="@+id/ball"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="115dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/c_ball_orange"
+                    android:visibility="gone" />
+
+                <FrameLayout
+                    android:id="@+id/frmenu1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/c_menu_window" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|left"
+                        android:layout_marginBottom="9dp"
+                        android:layout_marginLeft="7dp"
+                        android:text="100"
+                        android:textColor="#ffee05"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginRight="5dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/coin_icon" />
+
+                    <TextView
+                        android:id="@+id/txtcoin"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginBottom="7dp"
+                        android:layout_marginLeft="45dp"
+                        android:gravity="left"
+                        android:text="100,000"
+                        android:textColor="#ffee05"
+                        android:textSize="11dp"
+                        android:textStyle="bold" />
+                </FrameLayout>
+
+                <ImageView
+                    android:id="@+id/imggotojewel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:layout_gravity="bottom|right"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="15dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/c_menu_arrow2" />
+
+            </FrameLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frjewel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/c_gacha_gold_background"
+            android:visibility="gone">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/c_gold_curtain">
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="110dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/c_gacha_body_inside" />
+
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="90dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/c_gacha_gold_body" />
+
+                <ImageView
+                    android:id="@+id/handle2"
+                    android:layout_width="35dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="65dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/c_handle" />
+
+
+                <ImageView
+                    android:id="@+id/gachaHead2"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="40dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/c_gacha_gold_head1" />
+
+                <ImageView
+                    android:id="@+id/ball2"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="115dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/c_ball_orange"
+                    android:visibility="gone" />
+
+                <FrameLayout
+                    android:id="@+id/frmenu2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/c_menu_gold_window" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|left"
+                        android:layout_marginBottom="9dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="100"
+                        android:textColor="#ffee05"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginRight="5dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/jewel_icon" />
+
+                    <TextView
+                        android:id="@+id/txtjewel"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginBottom="7dp"
+                        android:layout_marginLeft="45dp"
+                        android:gravity="left"
+                        android:text="100,000"
+                        android:textColor="#ffee05"
+                        android:textSize="11dp"
+                        android:textStyle="bold" />
+                </FrameLayout>
+
+                <ImageView
+                    android:id="@+id/imggotocoin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:layout_gravity="bottom|left"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/c_menu_arrow1" />
+
+            </FrameLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgback"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_margin="10dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/battle_back" />
+
+            <ImageView
+                android:id="@+id/imgbacktomypage"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center"
+                android:layout_margin="10dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/zukanbtn_mypage" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imgresult"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="130dp"
+            android:adjustViewBounds="true"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imgresulthead"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="130dp"
+            android:adjustViewBounds="true"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imgresultneck"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="110dp"
+            android:adjustViewBounds="true"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imgresultbody"
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:adjustViewBounds="true"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imgresultwing"
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:adjustViewBounds="true"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imgresultface"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="130dp"
+            android:adjustViewBounds="true"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imgresulthorn"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="170dp"
+            android:adjustViewBounds="true"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/shineright"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="12dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/c_gacha_shine"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/shineleft"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="12dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/c_gacha_shine"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imgresultoutside"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="130dp"
+            android:adjustViewBounds="true"
+            android:alpha="0.7"
+            android:src="@drawable/c_ball_orange"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000">
+
+        <com.google.android.gms.ads.doubleclick.PublisherAdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="/56791129/kabukuwa_Android"></com.google.android.gms.ads.doubleclick.PublisherAdView>
+    </LinearLayout>
+
+</LinearLayout>

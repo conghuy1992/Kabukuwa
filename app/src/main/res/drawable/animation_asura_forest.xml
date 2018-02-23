@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <item
+        android:drawable="@drawable/asura_forest1"
+        android:duration="400" />
+    <item
+        android:drawable="@drawable/asura_forest2"
+        android:duration="400" />
+    <item
+        android:drawable="@drawable/asura_forest3"
+        android:duration="400" />
+    <item
+        android:drawable="@drawable/asura_forest4"
+        android:duration="400" />
+    <item
+        android:drawable="@drawable/asura_forest5"
+        android:duration="400" />
+    <item
+        android:drawable="@drawable/asura_forest1"
+        android:duration="400" />
+</animation-list>

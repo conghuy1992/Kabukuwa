@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="25dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:src="@drawable/new_shop_dialogue_sell" />
+
+    <Button
+        android:id="@+id/btnleftright"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/tab_left" />
+
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/btn_back" />
+
+    <FrameLayout
+        android:id="@+id/layoutsellpet"
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/nopet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="売る成虫がいません。"
+            android:visibility="gone" />
+
+        <GridView
+            android:id="@+id/listView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:clipToPadding="false"
+            android:numColumns="2"
+            android:paddingBottom="100dp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/txtleft"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="85dp"
+        android:elevation="2dp"
+        android:text="アイテム"
+        android:textColor="#ffffff"
+        android:textSize="13dp" />
+
+    <TextView
+        android:id="@+id/txtright"
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="85dp"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:text="成虫"
+        android:textColor="#ffffff"
+        android:textSize="10dp" />
+
+    <FrameLayout
+        android:id="@+id/layoutsellproduct"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <ListView
+            android:id="@+id/listItemSell"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+    </FrameLayout>
+
+
+</FrameLayout>

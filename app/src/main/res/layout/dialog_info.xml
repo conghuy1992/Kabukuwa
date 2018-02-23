@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bgdialoginfo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="true"
+        android:src="@drawable/beetle_desc_back" />
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/btn_close" />
+
+    <TextView
+        android:id="@+id/txtid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginBottom="25dp"
+        android:layout_marginRight="30dp"
+        android:text="id"
+        android:textColor="#ffffff"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="35dp"
+        android:text="個体ID:"
+        android:textColor="#ffffff"
+        android:textSize="10dp" />
+
+    <ImageView
+        android:id="@+id/bginfo"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="40dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/egg_icon" />
+
+    <TextView
+        android:id="@+id/txtuptime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#ffffff"
+        android:textSize="11dp" />
+
+    <TextView
+        android:id="@+id/txtgioitinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="35dp"
+        android:text="男の子"
+        android:textColor="#ffffff"
+        android:textSize="11dp" />
+
+    <TextView
+        android:id="@+id/txtno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="55dp"
+        android:textColor="#ffffff"
+        android:textSize="11dp"
+        android:text=" 空腹" />
+
+    <TextView
+        android:id="@+id/txttrangthai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="75dp"
+        android:textColor="#ffffff"
+        android:textSize="11dp"
+        android:text="悪い" />
+
+    <TextView
+        android:id="@+id/txtsuckhoe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="95dp"
+        android:textColor="#ffffff"
+        android:textSize="11dp"
+        android:text="悪い" />
+
+    <TextView
+        android:id="@+id/txttimesum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="115dp"
+        android:textColor="#ffffff"
+        android:textSize="11dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:text="眠気:"
+        android:textColor="#ffffff"
+        android:textSize="11dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="35dp"
+        android:text="水分:"
+        android:textColor="#ffffff"
+        android:textSize="11dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="55dp"
+        android:text="強さ:"
+        android:textColor="#ffffff"
+        android:textSize="11dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="75dp"
+        android:text="友達指数:"
+        android:textColor="#ffffff"
+        android:textSize="11dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="95dp"
+        android:text="ライフ:"
+        android:textColor="#ffffff"
+        android:textSize="11dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:text="飼育時間:"
+        android:textColor="#ffffff"
+        android:textSize="11dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="35dp"
+        android:text="性別:"
+        android:textColor="#ffffff"
+        android:textSize="11dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="55dp"
+        android:text="空腹度:"
+        android:textColor="#ffffff"
+        android:textSize="11dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="75dp"
+        android:text="ご機嫌:"
+        android:textColor="#ffffff"
+        android:textSize="11dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="95dp"
+        android:text="健康状態:"
+        android:textColor="#ffffff"
+        android:textSize="11dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="115dp"
+        android:text="次の成長まで:"
+        android:textColor="#ffffff"
+        android:textSize="11dp" />
+
+    <TextView
+        android:id="@+id/txtngu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#ffffff"
+        android:textSize="11dp"
+        android:text="フツウ" />
+
+    <TextView
+        android:id="@+id/txtkhatnuoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="35dp"
+        android:textColor="#ffffff"
+        android:textSize="11dp"
+        android:text="水分不足" />
+
+    <TextView
+        android:id="@+id/txtsucmanh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="55dp"
+        android:textColor="#ffffff"
+        android:textSize="11dp" />
+
+    <TextView
+        android:id="@+id/txtbanbe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="75dp"
+        android:textColor="#ffffff"
+        android:textSize="11dp" />
+
+    <TextView
+        android:id="@+id/txttientrien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="95dp"
+        android:textColor="#ffffff"
+        android:textSize="11dp" />
+
+    <TextView
+        android:id="@+id/txttt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="35dp"
+        android:text="text"
+        android:textColor="#ffffff"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/txtloai"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="70dp"
+        android:layout_marginLeft="105dp"
+        android:gravity="left"
+        android:text="カブトムシ"
+        android:textColor="#ffffff"
+        android:textSize="10dp" />
+
+    <EditText
+        android:id="@+id/editten"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="90dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/custom_border"
+        android:hint="name"
+        android:padding="6dp"
+        android:singleLine="true"
+        android:textColor="#ffffff"
+        android:textSize="10dp" />
+
+
+</FrameLayout>
